@@ -1,2 +1,26 @@
 # ocl-scispacy-match
 Matching algorithm using the scispacy language models
+
+# 🧪 LOINC Mapping Pipeline
+
+This project implements a robust pipeline to map **lab terms** (e.g., _"MCH"_, _"heart rate"_) to their most appropriate **LOINC codes**, using a combination of:
+
+- ✅ **Axis-based matching** (`COMPONENT`, `PROPERTY`, `SYSTEM`, `METHOD`)
+- 📊 **LOINC's official `COMMON_TEST_RANK`**
+- 🧮 **Custom composite scoring**
+- ⚙️ **Batch-based processing** for large-scale performance
+- 🛠️ **Hardcoded fallbacks** for known ambiguous terms
+
+The algorithm returns the **best match candidates** for each input term.
+
+---
+
+## 📦 Required Files
+
+Make sure the following files are present in the run environment:
+
+- `loinc.csv`
+- `LoincPartLink_Primary.csv`
+
+> These files are available for download from [https://loinc.org/downloads/loinc/](https://loinc.org/downloads/loinc/).
+
