@@ -1,5 +1,7 @@
 # ocl-scispacy-match
-Matching algorithm using the scispacy language models
+Matching algorithm using the scispacy language models.
+
+Please use file - scispacy_loinc_mapping_algorithm.ipynb for using the matchng algorithm
 
 # 🧪 LOINC Mapping Pipeline
 
