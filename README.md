@@ -26,3 +26,5 @@ Make sure the following files are present in the run environment:
 
 > These files are available for download from [https://loinc.org/downloads/loinc/](https://loinc.org/downloads/loinc/).
 
+## UMLS Access key required
+For testing purposes UMLS personal key was used for API. We need an account with production level access and use that key in the first step- labelled "# UMLS API Key — Replace this at runtime - PROVIDE THE API KEY" in scispacy_loinc_mapping_algorithm.ipynb
